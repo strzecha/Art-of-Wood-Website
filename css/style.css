@@ -9,6 +9,11 @@ body
     background-color: rgb(27, 184, 53);
 }
 
+.btn-porches
+{
+    background-color: rgb(27, 184, 53);
+}
+
 .icon-facebook-official
 {
     font-size: 100px;
@@ -20,10 +25,47 @@ body
     color: rgb(59, 89, 152);
 }
 
+.container p
+{
+    text-align: justify;
+}
+
+@media (max-width: 576px)
+{
+    .container p
+    {
+        text-align: left;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 768px)
 {
     .icon-facebook-official
     {
         font-size: 80px;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .about img
+    {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .container p
+    {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container p
+    {
+        font-size: 20px;
     }
 }
