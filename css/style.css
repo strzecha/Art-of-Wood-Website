@@ -2,10 +2,28 @@ body
 {
 	background-color: bisque;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
 }
 
 .bg-nav
 {
     background-color: rgb(27, 184, 53);
+}
+
+.icon-facebook-official
+{
+    font-size: 100px;
+    color: black;
+}
+
+.icon-facebook-official:hover
+{
+    color: rgb(59, 89, 152);
+}
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    .icon-facebook-official
+    {
+        font-size: 80px;
+    }
 }
