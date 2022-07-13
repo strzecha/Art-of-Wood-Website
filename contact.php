@@ -59,17 +59,19 @@
 			</div>
         </nav>
         
+        <div class="card bg-dark">
+            <img src="img/header.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h1 class="text-white fw-bold img-middle">Contact</h1>
+            </div>
+        </div>
     </header>
     
     <section class="contact">
         <div class="container">
             
             <div class="row">
-                <div class="col-12 text-body bg-white mt-3 pb-3">
-                    <header>
-                        <h1 class="mt-3 text-center fw-bold">Contact</h1>
-                    </header>
-
+                <div class="col-12 text-body bg-white mt-3 p-3">
                     <div class="row">
                         <div class="col-sm-6 text-center">
                             <p><i class="icon-phone"></i>Phone number: 123 456 789</p>
