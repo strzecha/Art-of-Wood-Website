@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
-  <body>
+  <body class="bg-secondary">
     <header>
         <div class="container">
             <div class="row">
@@ -36,7 +36,7 @@
             </div>
         </div>
         
-        <nav class="navbar navbar-dark bg-nav navbar-expand-sm ps-3 ps-sm-5">
+        <nav class="navbar navbar-dark bg-primary navbar-expand-sm ps-3 ps-sm-5">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switcher">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -83,16 +83,16 @@
 
                     <p class="text-center">Do you have any questions? Send them to us!</p>
 
-                    <form class="form-contact contact_form" action="send_message.php" method="post" id="contactForm" novalidate="novalidate">
+                    <form action="send_message.php" method="post" id="contactForm">
 						<div class="row">
 							<div class="col-sm-6 mt-3">
-								<input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+								<input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
 							</div>
 							<div class="col-sm-6 mt-3">
-								<input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Enter your email">
+								<input class="form-control" name="email" id="email" type="email" placeholder="Enter your email" required>
 							</div>
 							<div class="col-12 mt-3">
-								<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your message'" placeholder="Enter your message"></textarea>
+								<textarea class="form-control" name="message" id="message" cols="30" rows="9" placeholder="Enter your message" required></textarea>
 							</div>
 						</div>
                         <?php
@@ -107,7 +107,7 @@
                             }
                         ?>
 						<div class="form-group mt-3 d-grid col-md-4 offset-md-4">
-							<button type="submit" class="btn btn-porches btn-lg">Send</button>
+							<button type="submit" class="btn btn-primary btn-lg">Send</button>
 						</div>
 						
 					</form>
@@ -117,10 +117,10 @@
         
     </section>
 
-    <footer class="bg-nav mt-3 pt-3">
+    <footer class="bg-primary mt-3 pt-3">
         <div class="container">
             <div class="row text-center">
-                <p class="fs-5">English Porches &copy 2022 All rights reserved</p>
+                <p class="fs-5 text-white">English Porches &copy 2022 All rights reserved</p>
             </div>
         </div>
     </footer>
