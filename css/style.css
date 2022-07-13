@@ -12,6 +12,8 @@ body
 .btn-porches
 {
     background-color: rgb(27, 184, 53);
+    color: white;
+    font-weight: bold;
 }
 
 .icon-facebook-official
@@ -61,7 +63,7 @@ footer .container p
 
 @media (min-width: 768px)
 {
-    .container p
+    .porches .container p
     {
         font-size: 14px;
     }
