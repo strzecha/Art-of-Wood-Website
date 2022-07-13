@@ -1,7 +1,8 @@
 <?php
-
+    session_start();
     if($_REQUEST["message"] == "" || $_REQUEST["email"] == ""){
-        header("Location: contact.html");
+        $_SESSION["result"] = "MISSING_DATA";
+        header("Location: contact.php");
         exit();
     }
 
@@ -51,7 +52,8 @@
     if(isset($_REQUEST["name"]))
         unset($_REQUEST["name"]);
 
-	header("Location: contact.html");
+    $_SESSION["result"] = "OK";
+	header("Location: contact.php");
 	exit();
 
 ?>

@@ -1,3 +1,7 @@
+
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -49,7 +53,7 @@
 						<a class="nav-link" href="about.html"> About </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="contact.html"> Contact </a>
+						<a class="nav-link active" href="contact.php"> Contact </a>
 					</li>
 				</ul>
 			</div>
@@ -64,20 +68,44 @@
                 <div class="col-12 text-body bg-white mt-3 pb-3">
                     <header>
                         <h1 class="mt-3 text-center fw-bold">Contact</h1>
-                        <p class="text-center">Do you have any questions? Send them to us!</p>
                     </header>
+
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p><i class="icon-phone"></i>Phone number: 123 456 789</p>
+                            <p>Call us between 8am and 5pm</p>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <p><i class="icon-mail-alt"></i>E-mail: something@example.com</p>
+                            <p>Ask us everything you want</p>
+                        </div>
+                    </div>
+
+                    <p class="text-center">Do you have any questions? Send them to us!</p>
+
                     <form class="form-contact contact_form" action="send_message.php" method="post" id="contactForm" novalidate="novalidate">
 						<div class="row">
 							<div class="col-sm-6 mt-3">
 								<input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
 							</div>
 							<div class="col-sm-6 mt-3">
-								<input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Email">
+								<input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Enter your email">
 							</div>
 							<div class="col-12 mt-3">
-								<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your message'" placeholder="Message"></textarea>
+								<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your message'" placeholder="Enter your message"></textarea>
 							</div>
 						</div>
+                        <?php
+                            if(isset($_SESSION["result"])){
+                                if($_SESSION["result"] == "OK"){
+                                    echo "<p style='color: green;'>Your message was sent</p>";
+                                }
+                                elseif($_SESSION["result"] == "MISSING_DATA"){
+                                    echo "<p style='color: red;'>You must enter your email and message</p>";
+                                }
+                                unset($_SESSION["result"]);
+                            }
+                        ?>
 						<div class="form-group mt-3 d-grid col-md-4 offset-md-4">
 							<button type="submit" class="btn btn-porches btn-lg">Send</button>
 						</div>

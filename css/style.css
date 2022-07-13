@@ -27,7 +27,7 @@ body
     color: rgb(59, 89, 152);
 }
 
-.container p
+.porches .container p, .about .container p
 {
     text-align: justify;
 }
@@ -71,7 +71,7 @@ footer .container p
 
 @media (min-width: 992px)
 {
-    .container p
+    .porches .container p
     {
         font-size: 20px;
     }
