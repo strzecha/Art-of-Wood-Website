@@ -47,6 +47,10 @@ footer .container p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: #000000;
+	-webkit-text-fill-color: #67d0ff;
+
 }
 
 .img-shadow
