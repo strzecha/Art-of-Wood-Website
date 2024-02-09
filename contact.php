@@ -16,57 +16,10 @@
     <link rel="stylesheet" href="css/custom-primary.css">
 </head>
   <body class="bg-secondary">
-    <header>
-    <div class="container text-center">
-            <div class="row">
-                <a class="d-none d-sm-block col-sm-4 col-lg-3 my-sm-4 my-md-auto" href="index.html">
-                    <img src="img/logo.png" class="img-fluid d-block mx-auto">
-                </a>
-    
-                <div class="text-center my-5 col-8 col-sm-6 my-sm-3 my-md-auto">
-                    <i class="icon-briefcase"></i>Office Hours: 8am - 5pm
-                    <br>
-                    <i class="icon-phone"></i>Phone number: 123 456 789
-                    <br>
-                    <i class="icon-mail-alt"></i>E-mail: something@example.com
-                </div>
-
-                <a class="text-center col-4 col-sm-2 col-lg-3 my-0" href="#">
-                    <i class="icon-facebook-official"></i>
-                </a>
-            </div>
-        </div>
-        
-        <nav class="navbar navbar-dark bg-primary navbar-expand-sm ps-3 ps-sm-5">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Navigation switcher">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-            <div class="collapse navbar-collapse justify-content-center" id="mainmenu">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html"> Main </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="gallery.html"> Gallery </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html"> About </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="contact.php"> Contact </a>
-					</li>
-				</ul>
-			</div>
-        </nav>
-        
-        <div class="card bg-dark">
-            <img src="img/header.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-                <h1 class="text-white fw-bold img-middle">Contact</h1>
-            </div>
-        </div>
-    </header>
+    <?php 
+      include 'header.php';
+      show_header("contact");
+    ?>
     
     <section class="contact">
         <div class="container">
