@@ -77,9 +77,9 @@ footer .container p
 {
     .img-shadow
     {
-        -webkit-box-shadow: 10px 10px 0px -2px rgba(0, 108, 255, 1);
-        -moz-box-shadow: 10px 10px 0px -2px rgba(0, 108, 255, 1);
-        box-shadow: 10px 10px 0px -2px rgba(0, 108, 255, 1);
+        -webkit-box-shadow: 10px 10px 0px -2px #67d0ff;
+        -moz-box-shadow: 10px 10px 0px -2px #67d0ff;
+        box-shadow: 10px 10px 0px -2px #67d0ff;
     }
 }
 
@@ -237,4 +237,29 @@ a.lightbox-close:after {
 #ref
 {
     position: fixed;
+}
+
+.nav-pills .active
+{
+	background-color: #67d0ff !important;
+}
+
+.nav-pills .nav-link:hover
+{
+	background-color: #a5e3ff !important;
+}
+
+.nav-pills hr
+{
+	margin: 0.1rem 0;
+}
+
+.card
+{
+	border-radius: 0;
+}
+
+.main-nav-link
+{
+	font-weight: bold;
 }

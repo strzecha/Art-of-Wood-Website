@@ -10,12 +10,12 @@ Font license info
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
-## Elusive
+## Entypo
 
-   Copyright (C) 2013 by Aristeides Stathopoulos
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    Aristeides Stathopoulos
+   Author:    Daniel Bruce
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://aristeides.com/
+   Homepage:  http://www.entypo.com
 
 

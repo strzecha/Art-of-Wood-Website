@@ -6,19 +6,24 @@ function show_header($show_section){
   $gallery = "";
   $about = "";
   $contact = "";
+  $title = "";
 
   switch($show_section){
     case "main":
       $main = "active";
+      $title = "Main Page";
       break;
     case "gallery":
       $gallery = "active";
+      $title = "Gallery";
       break;
     case "about":
       $about = "active";
+      $title = "About Us";
       break;
     case "contact":
       $contact = "active";
+      $title = "Contact";
       break;
 
   }
@@ -68,7 +73,7 @@ function show_header($show_section){
             <div class="card bg-dark">
                 <img src="img/header.jpg" class="card-img rounded-0" alt="...">
                 <div class="card-img-overlay">
-                    <h1 class="h1 text-white fw-bold img-middle">Main Page</h1>
+                    <h1 class="h1 text-white fw-bold img-middle">$title</h1>
                 </div>
             </div>
             

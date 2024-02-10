@@ -17,8 +17,51 @@
       show_header("main");
     ?>
     
-    <section class="porches">
+    <section class="porches d-flex flex-nowrap">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark bg-primary ">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-4">Products</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link main-nav-link" aria-current="page">
+                <i class="icon-basket"></i>Porches
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" aria-current="page">
+                Wedding Porches
+                </a>
+            </li>
+            <hr>
+            <li>
+                <a href="#" class="nav-link text-white main-nav-link">
+                <i class="icon-basket"></i>Gazebos
+                </a>
+            </li>
+            <a href="#" class="nav-link text-white" aria-current="page">
+                Oak Hot Tub Gazebos
+                </a>
+            <hr>
+            <li>
+                <a href="#" class="nav-link text-white main-nav-link">
+                <i class="icon-basket"></i>Pergolas
+                </a>
+            </li>
+            <hr>
+            <li>
+                <a href="#" class="nav-link text-white main-nav-link">
+                <i class="icon-basket"></i>Trusses
+                </a>
+            </li>
+            <hr>
+            </ul>
+        </div>
+            
+
         <div class="container">
+        
             
             <div class="row">
                 <div class="col-12 text-body bg-light mt-3">
@@ -47,13 +90,7 @@
         
     </section>
 
-    <footer class="bg-primary mt-3 pt-3">
-        <div class="container">
-            <div class="row text-center">
-                <p class="fs-5 text-white">Art of Wood &copy 2023 All rights reserved</p>
-            </div>
-        </div>
-    </footer>
+    <?php include "footer.php"; ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	
