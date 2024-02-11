@@ -36,14 +36,14 @@ function show_header($show_section){
                         <img src="img/logo.png" class="img-fluid d-block mx-auto">
                     </a>
         
-                    <div class="text-center my-5 col-8 col-sm-6 my-sm-3 my-md-auto">
+                    <div class="text-center my-5 col-12 col-sm-6 my-sm-3 my-md-auto">
                         <i class="icon-briefcase"></i>Office Hours: 8am - 5pm
                         <br>
                         <i class="icon-phone"></i>Phone number: 123 456 789
                         <br>
                         <i class="icon-mail-alt"></i>E-mail: something@example.com
                     </div>
-                    <a class="text-center col-4 col-sm-2 col-lg-3 my-0" href="#">
+                    <a class="text-center col-4 col-sm-2 col-lg-3 my-0 d-none d-sm-block" href="#">
                         <i class="icon-facebook-official"></i>
                     </a>
                 </div>
