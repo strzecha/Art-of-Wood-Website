@@ -63,15 +63,10 @@
                     <div class="row">
                         <div class="col-md-4 pe-3 pb-3 pe-lg-5 pb-lg-5">
                             <img class="img-fluid my-3 img-shadow" src="img/porch3.jpg" alt="Oak Porch">
-                            <img class="img-fluid my-3 img-shadow" src="img/porch2.jpg" alt="Oak Porch">
                         </div>
         
                         <div class="col-md-8 my-3 pe-lg-5">
                             <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet, velit eget luctus dictum, sem elit placerat lacus, eu feugiat nulla elit ac felis. Integer a commodo nunc. Nulla interdum elementum nunc, quis bibendum nibh luctus vitae. Vestibulum tristique ipsum id vulputate faucibus. Nam eget lectus ac libero maximus efficitur. Fusce blandit porttitor turpis ac suscipit. Praesent volutpat elit vitae mi mollis tincidunt. Morbi erat nibh, pharetra vitae accumsan vestibulum, semper ut est. Sed nec enim ut orci lobortis consequat id eu justo. Proin laoreet odio non ex viverra, nec porta augue volutpat. Nulla eleifend id nulla at scelerisque. </p>
-        
-                            <p class="fs-4">Curabitur luctus convallis consectetur. Phasellus a fringilla risus. Donec urna nibh, vestibulum eu facilisis et, viverra sit amet arcu. Fusce tempus imperdiet ex eu ultricies. Phasellus porttitor faucibus elit, quis facilisis dolor rutrum eu. Curabitur fringilla sit amet ex nec molestie. Praesent in suscipit arcu, eu luctus metus. In scelerisque dolor eros, convallis vehicula diam feugiat a. Suspendisse sed eros vitae mauris rutrum elementum. Sed eget purus at elit dignissim dignissim ut sit amet est. Donec efficitur tortor sed scelerisque ultrices. Aenean tempor pulvinar euismod. Aliquam sed quam efficitur, lacinia quam id, mattis ipsum. Fusce tincidunt tortor porta felis auctor, sit amet varius libero sodales.</p>
-
-                            <p class="fs-4">Curabitur luctus convallis consectetur. Phasellus a fringilla risus. Donec urna nibh, vestibulum eu facilisis et, viverra sit amet arcu. Fusce tempus imperdiet ex eu ultricies. Phasellus porttitor faucibus elit, quis facilisis dolor rutrum eu. Curabitur fringilla sit amet ex nec molestie. Praesent in suscipit arcu, eu luctus metus. In scelerisque dolor eros, convallis vehicula diam feugiat a. Suspendisse sed eros vitae mauris rutrum elementum. Sed eget purus at elit dignissim dignissim ut sit amet est. Donec efficitur tortor sed scelerisque ultrices. Aenean tempor pulvinar euismod. Aliquam sed quam efficitur, lacinia quam id, mattis ipsum. Fusce tincidunt tortor porta felis auctor, sit amet varius libero sodales.</p>
 
                             <div class="d-grid col-6 mx-auto my-4">
                                 <h4 class="fw-bold">Estimated price: 2000 - 4000$</h4>
@@ -79,6 +74,52 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="row row-cols-1 row-cols-sm-2 g-3">
+                <div class="col">
+                    <a href="#" class="card shadow-sm">
+                        <div class="card-img-cover">
+                            <img src="img/p1.jpg" width="100%">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <p class="card-text">PORCHES</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="card shadow-sm">
+                        <div class="card-img-cover">
+                            <img src="img/p2.jpg" width="100%">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <p class="card-text">GAZEBOS</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="card shadow-sm">
+                        <div class="card-img-cover">
+                            <img src="img/p3.jpg" width="100%">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <p class="card-text">PERGOLAS</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="card shadow-sm">
+                        <div class="card-img-cover">
+                            <img src="img/p4.jpg" width="100%">
+                        </div>
+                        <div class="card-body bg-primary">
+                            <p class="card-text">TRUSSES</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

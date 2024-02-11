@@ -268,3 +268,28 @@ a.lightbox-close:after {
 {
 	font-weight: bold;
 }
+
+a.card
+{
+	text-decoration: none;
+}
+
+.card-img-cover
+{
+	overflow: hidden;
+	height: 250px;
+}
+
+.card-img-cover img
+{
+	position: relative;
+	top: calc(-50% + 62px);
+}
+
+.card-text
+{
+	text-align: center !important;
+	color: white;
+	font-weight: bold;
+	font-size: large;
+}
