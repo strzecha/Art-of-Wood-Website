@@ -18,10 +18,8 @@
     ?>
     
     <section class="porches d-flex flex-nowrap">
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark bg-primary ">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+    <div class="d-md-flex flex-column flex-shrink-0 p-3 text-bg-dark bg-primary d-none">  
             <span class="fs-4">Products</span>
-            </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
@@ -30,39 +28,36 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link text-white" aria-current="page">
+                <a href="#" class="nav-link" aria-current="page">
                 Wedding Porches
                 </a>
             </li>
             <hr>
             <li>
-                <a href="#" class="nav-link text-white main-nav-link">
+                <a href="#" class="nav-link main-nav-link">
                 <i class="icon-basket"></i>Gazebos
                 </a>
             </li>
-            <a href="#" class="nav-link text-white" aria-current="page">
+            <a href="#" class="nav-link" aria-current="page">
                 Oak Hot Tub Gazebos
                 </a>
             <hr>
             <li>
-                <a href="#" class="nav-link text-white main-nav-link">
+                <a href="#" class="nav-link main-nav-link">
                 <i class="icon-basket"></i>Pergolas
                 </a>
             </li>
             <hr>
             <li>
-                <a href="#" class="nav-link text-white main-nav-link">
+                <a href="#" class="nav-link main-nav-link">
                 <i class="icon-basket"></i>Trusses
                 </a>
             </li>
             <hr>
             </ul>
         </div>
-            
-
-        <div class="container">
         
-            
+        <div class="container">
             <div class="row">
                 <div class="col-12 text-body bg-light mt-3">
                     <div class="row">

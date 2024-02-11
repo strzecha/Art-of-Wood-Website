@@ -254,6 +254,11 @@ a.lightbox-close:after {
 	margin: 0.1rem 0;
 }
 
+.nav-pills .nav-link
+{
+	color: white;
+}
+
 .card
 {
 	border-radius: 0;
